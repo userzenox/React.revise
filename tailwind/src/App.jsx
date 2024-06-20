@@ -10,12 +10,17 @@ function App() {
     username: "hitesh",
     age:21
    }
+   let newArr = [1,2,3]
   return (
     <>
    <h1 className ="">Tailwind</h1>
-   <Cards channel="chaiaurcode" obj={myObj} />
-    
-    </>
+   <Cards username="zenox" btnText ="click me "/>
+   <Cards username="libra" />
+
+   {/* <Cards channel="chaiaurcode" obj={myObj} />
+   <Cards channel="chaiaurcode" obj={newArr} />
+   */}
+    </> 
   )
 }
 
