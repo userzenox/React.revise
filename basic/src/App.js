@@ -11,8 +11,8 @@ function App() {
     let char = Math.floor(Math.random() * str.length + 1 )
        pass += str.charAt(char)
    }
-   console.log(pass);
-  
+  //  console.log(pass);
+  // console.log(pass)
   return (
     <>
     <h1> React study</h1>
